@@ -1,0 +1,219 @@
+* {
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+
+
+.navbar {
+
+    background-color: #0F1111;
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Logo */
+.nav-logo {
+
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+
+    background-image: url(amazon_logo.png);
+    height: 50px;
+    background-size:cover;
+}
+
+/* Same border when hover */
+.border {
+
+    border: 1.5px solid transparent;
+    
+}
+
+.border:hover {
+
+    border: 1.5px solid; 
+}
+
+/* Address */
+.nav-location {
+
+    height: 50px;
+    width: 70px;
+    
+}
+
+/* deliver to */
+.para1 {
+
+    color: #cccccc;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+/* india */
+.para2 {
+
+    color: #ffffff;
+    font-size: 14px;
+    padding-left: 3px;
+}
+
+/* icon and india in one line */
+.dti {
+    padding-left: 5px;
+    padding-right: 2px;
+    display: flex;
+    align-items: center;
+    
+}
+
+/* Searching */
+.nav-search {
+
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;  
+    margin: 1px 1px 1px 1px; 
+}
+
+/* .nav-search:hover {
+
+    border: 2px solid orange;
+} */
+
+.select-all {
+
+    height: 40px;
+    width: 40px;
+    background-color: #E6E6E6;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.searching {
+
+    height: 40px;
+    width: 520px;
+    background-color: #ffffff;
+    border: none;
+    font-size: 15px;
+}
+
+.search-icon {
+
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 18px;    /*magnifying glass size*/
+    background-color: gold;
+}
+
+.search-icon:hover {
+
+    background-color:goldenrod;
+}
+
+/* Signin and orders */
+.signin {
+
+    color: #ffffff;
+    width: 120px; 
+}
+
+.paraa1 {
+
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.paraa2 {
+
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+/* Return and orders */
+.return {
+
+    color: #ffffff;
+    width: 75px;    
+}
+
+.line1 {
+
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.line2 {
+
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+/* Cart */
+.Cart i {
+
+    font-size: 28px;
+   
+}
+
+.Cart {
+
+    font-size: 14px;
+    font-weight: 550;
+    padding : 8px 10px 8px 4px;
+}
+
+/* panel */
+.Panel {
+
+    background-color: #232f3E;
+    height: 40px;
+    color: #FFFFFF;
+    align-items: center;
+    display: flex;  
+    padding-left: 5px;
+    padding-right: 5px;  
+}
+
+.panel-all {
+
+    width: 5%;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.panel-links p{
+
+    display: inline;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.panel-links {
+
+    width: 95%;
+}
+
+
+
+
+
