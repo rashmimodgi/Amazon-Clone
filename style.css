@@ -221,7 +221,7 @@
 /* Hero Section-a line on image */
 .hero_section {
 
-    background-image: url(hero_section/books_img.jpg);
+    background-image: url(imgs/books_img.jpg);
     height: 300px;
     background-size: cover;   
 
@@ -285,7 +285,7 @@
 /* For imgs in 3,4 boxes */
 .images {
 
-    background-image: url("boxes/dining.jpg"),url("boxes/home.jpg"),url("boxes/kitchen.jpg"),url("boxes/health\ &\ beauty.jpg");
+    background-image: url("imgs/dining.jpg"),url("imgs/home.jpg"),url("imgs/kitchen.jpg"),url("imgs/health\ &\ beauty.jpg");
     background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
     background-size: 46%;
     background-position: left top,right top,left bottom,right bottom;
@@ -296,7 +296,7 @@
 
 .imge {
 
-    background-image: url("boxes/jeans.jpg"),url("boxes/tops.jpg"),url("boxes/dresses.jpg"),url("boxes/shoes.jpg");
+    background-image: url("imgs/jeans.jpg"),url("imgs/tops.jpg"),url("imgs/dresses.jpg"),url("imgs/shoes.jpg");
     background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
     background-size: 46%;
     background-position: left top,right top,left bottom,right bottom;
