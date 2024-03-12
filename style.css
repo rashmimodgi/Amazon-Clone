@@ -25,7 +25,7 @@
 
 .logo {
 
-    background-image: url(navbar/amazon_logo.png);
+    background-image: url(imgs/amazon_logo.png);
     height: 50px;
     background-size:cover;
 }
@@ -305,12 +305,85 @@
 
 }
 
+/* Footer */
+/* back to top */
+.top_text {
 
+    display: flex;
+    background-color:  #37475a;
+    color: #cccccc;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
 
+/* list */
+.middle_text {
 
+    background-color: #232f3E;
+    color: #cccccc;
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+}
 
+.middle_text ul {
 
+    padding-top: 50px;
+    list-style: none;
+}
 
+/* logo and boxes */
+.middle2_text {
 
+    color: #cccccc;
+    background-color:  #232f3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    border-top: 0.1px solid white;
+}
 
+.a_logo {
+
+    background-image: url('imgs/amazon_logo.png');
+    background-size: cover;
+    height: 40px;
+    width: 100px;
+
+}
+
+.btn {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 0.5px solid white;
+    color: white;
+    height: 40px;
+    width: 130px;
+}
+
+.bottom_footer {
+
+    background-color: black;
+    color: white;
+    height: 60px;
+    text-align: center;
+    font-size: 12px;
+    
+}
+
+.pages {
+
+    padding-top: 15px;
+}
+
+.copyright {
+
+    padding-top: 5px;
+}
 
